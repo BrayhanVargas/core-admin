@@ -109,6 +109,7 @@ Below is a brief explanation of the database structure:
 Entity represents organizations or administrative units in the system.
 Employee represents individuals who belong to an entity.
 
+```bash
 
 +----------------+         1      *        +----------------+
 |     Entity     |------------------------>|    Employee    |
@@ -120,3 +121,4 @@ Employee represents individuals who belong to an entity.
 | Email          |                         | Email          |
 | Phone          |
 
+```
