@@ -1,0 +1,61 @@
+## Ignore Visual Studio temporary files, build results, and
+## common node.js files.
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]pp_Data/
+*.log
+.vs/
+.vscode/
+*.log
+*.user
+*.rsuser
+*.suo
+*.cache
+*.pdb
+*.opendb
+*.ide
+.idea/
+.ionide/
+.env
+testResults/
+Build/
+[Dd]ebugPublic/
+[Dd]ump/
+[Ll]og/
+[Ll]ogs/
+*.log
+*.nupkg
+*.snupkg
+*.vscode
+[Aa]pp_[Cc]ache/
+node_modules/
+
+## Ignore the compiled object files and intermediate folders
+[Bb]in/
+[Oo]bj/
+
+# Ignore web publish folder
+[Ll]ogin[Oo]ut/
+pubwww/
+site/
+
+## Ignore user-specific files
+*.csproj.user
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+*.nuget.props
+.nuget/
+*.publish.xml
+publishprofiles/
+publishsettings.json
+[Ll]ogs/
+.obj
+
+# Ignore app settings and secrets
+appsettings.json
+appsettings.Development.json
+secrets.json
+config/*.json
