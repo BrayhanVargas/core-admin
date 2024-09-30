@@ -100,4 +100,23 @@ To deploy the application to Azure Web App, we can use vs code directly.
 2. Update the connection string in the Azure App Settings.
 3. Run the database migrations: `dotnet ef database update`
 
-Now your API is fully deployed to Azure Web and Azure SQL Database.
+## One-to-Many Relationship
+
+The API is designed with a one-to-many relationship between entities and employees. This allows each entity to manage its employees independently, ensuring a scalable and flexible system. 
+
+Below is a brief explanation of the database structure:
+
+Entity represents organizations or administrative units in the system.
+Employee represents individuals who belong to an entity.
+
+
++----------------+         1      *        +----------------+
+|     Entity     |------------------------>|    Employee    |
++----------------+                         +----------------+
+| Id             |                         | Id             |
+| Name           |                         | FirstName      |
+| Description    |                         | LastName       |
+| Address        |                         | Position       |
+| Email          |                         | Email          |
+| Phone          |
+
