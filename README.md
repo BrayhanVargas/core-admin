@@ -1,6 +1,6 @@
 # Core Entities Admin API
 
-This is the backend of the Core Entities Admin application, developed using .NET 7 and SQL Server. This API allows users to manage entities, employees, and perform CRUD operations, with authentication and role-based access control using **ASP.NET Core Identity** and **JWT**.
+This is the backend of the Core Entities Admin application, developed using .NET 7 and SQL Server. This API allows users to manage entities, and employees, and perform CRUD operations, with authentication and role-based access control using **ASP.NET Core Identity** and **JWT**.
 
 ## Requirements and Configuration
 
@@ -27,7 +27,7 @@ If the migrations were already created, you can add new ones with: `dotnet ef mi
 
 This will automatically create the necessary tables and seed the default roles and users.
 
-## Folder Structure
+## Architecture and Folder Structure
 
 The project follows a clean architecture structure to maintain scalability and separation of concerns. Key components are organized as follows:
 
